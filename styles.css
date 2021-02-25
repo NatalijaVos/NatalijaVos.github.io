@@ -84,13 +84,12 @@ button {
 /* index- section */
 .index-section {
 	min-height: 100vh;
-	background-image: url('natasa.jpg');
+	background-image: url("natasa.jpg");
 	background-size: cover;
 	background-position: center;
 	position: relative;
-	z-index: -1;
-}
 
+}
 .index-section: before{
 	content: '';
 	position: absolute;
